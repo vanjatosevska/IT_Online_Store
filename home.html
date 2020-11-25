@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="boostrap4-3/js/bootstrap.bundle.js" ></script>
+    <link href="boostrap4-3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="boostrap4-3/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Shop laptops</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shopping-cart.html">Shopping cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sign%20in.html">Sign in</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-top: 50px">
+
+        </ul>
+        <br>
+        <ul class="navbar-nav" style="margin-left: 600px">
+            <li class="nav-item form-control">
+                <input style="width: 500px; border: white;" type="text" placeholder="Search">
+                    <button type="submit" class="btn btn-light btn-sm"><i class="fa fa-search"></i></button>
+            </li>
+            <li>
+                <a href="sign%20in.html" class="btn btn-sm"><i class="fa fa-user fa-2x" style="color: white; margin-left: 90px"></i></a>
+            </li>
+            <li>
+                <a href="shopping-cart.html" class="btn btn-sm"><i class="fa fa-shopping-cart fa-2x" style="color: white; margin-left: 20px;"></i></a>
+                <span class="counter">3</span>
+            </li>
+        </ul>
+
+</nav>
+<div class="container" style="margin-top: 50px">
+    <div class="row">
+        <div class="col-2">
+            <div class="form-group">
+
+                <div class="card">
+                    <div class="card-header" style="font-weight: bold; color: gray">Manufacturers</div>
+                    <div class="card-body text-muted">
+                            <ol>
+                                <input  type="checkbox" >Dell
+                            </ol>
+                            <ol>
+                                <input type="checkbox" >Apple
+                            </ol>
+                            <ol>
+                                <input  type="checkbox">Asus
+                            </ol>
+                            <ol>
+                                <input  type="checkbox">Lenovo
+                            </ol>
+                            <ol>
+                                <input  type="checkbox">HP
+                            </ol>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" style="font-weight: bold; color: gray">Memory</div>
+                    <div class="card-body text-muted">
+                        <ol>
+                            <input  type="checkbox" >12 GB
+                        </ol>
+                        <ol>
+                            <input type="checkbox" >8 GB
+                        </ol>
+                        <ol>
+                            <input  type="checkbox">16 GB
+                        </ol>
+                        <ol>
+                            <input  type="checkbox">4 GB
+                        </ol>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" style="font-weight: bold; color: gray">Price</div>
+                    <div class="card-body text-muted">
+                        <ol>
+                            <input  type="checkbox" >12 000-20 000
+                        </ol>
+                        <ol>
+                            <input type="checkbox" >20 000-30 000
+                        </ol>
+                        <ol>
+                            <input  type="checkbox">30 000-40 000
+                        </ol>
+                        <ol>
+                            <input  type="checkbox">40 000-50 000
+                        </ol>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="card">
+                <table class="table table-hover shopping-cart-wrap">
+                    <thead class="text-muted">
+                    <tr>
+                        <th scope="col">Product</th>
+                        <th scope="col" width="120">Quantity</th>
+                        <th scope="col" width="120">Price</th>
+                        <th scope="col" width="200" class="text-right">Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <figure class="media">
+                                <div class="img-wrap"><img src="img/dell.jpg" style="width: 70px; height: 70px" class="img-thumbnail img-sm"></div>
+                                <figcaption class="media-body">
+                                    <h6 class="title text-truncate">Dell </h6>
+                                    <dl class="param param-inline small">
+                                        <dt>Color: </dt>
+                                        <dd>Orange color</dd>
+                                    </dl>
+                                </figcaption>
+                            </figure>
+                        </td>
+                        <td>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </td>
+                        <td>
+                            <div class="price-wrap">
+                                <var class="price">DEN 145</var>
+                                <small class="text-muted">(DEN each)</small>
+                            </div> <!-- price-wrap .// -->
+                        </td>
+                        <td class="text-right">
+                            <a title="" href="" class="btn btn-outline-success" data-toggle="tooltip" data-original-title="Save to Wishlist"> <i class="fa fa-shopping-cart"></i></a>
+                            <a href="" class="btn btn-outline-danger"><i class="fa fa-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure class="media">
+                                <div class="img-wrap"><img src="img/dell.jpg" style="width: 70px; height: 70px" class="img-thumbnail img-sm"></div>
+                                <figcaption class="media-body">
+                                    <h6 class="title text-truncate">Dell </h6>
+                                    <dl class="param param-inline small">
+                                        <dt>Color: </dt>
+                                        <dd>Orange color</dd>
+                                    </dl>
+                                </figcaption>
+                            </figure>
+                        </td>
+                        <td>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </td>
+                        <td>
+                            <div class="price-wrap">
+                                <var class="price">DEN 145</var>
+                                <small class="text-muted">(DEN each)</small>
+                            </div> <!-- price-wrap .// -->
+                        </td>
+                        <td class="text-right">
+                            <a title="" href="" class="btn btn-outline-success" data-toggle="tooltip" data-original-title="Save to Wishlist"> <i class="fa fa-shopping-cart"></i></a>
+                            <a href="" class="btn btn-outline-danger"><i class="fa fa-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure class="media">
+                                <div class="img-wrap"><img src="img/dell.jpg" style="width: 70px; height: 70px" class="img-thumbnail img-sm"></div>
+                                <figcaption class="media-body">
+                                    <h6 class="title text-truncate">Dell </h6>
+                                    <dl class="param param-inline small">
+                                        <dt>Color: </dt>
+                                        <dd>Orange color</dd>
+                                    </dl>
+                                </figcaption>
+                            </figure>
+                        </td>
+                        <td>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </td>
+                        <td>
+                            <div class="price-wrap">
+                                <var class="price">DEN 145</var>
+                                <small class="text-muted">(DEN each)</small>
+                            </div> <!-- price-wrap .// -->
+                        </td>
+                        <td class="text-right">
+                            <a title="" href="" class="btn btn-outline-success" data-toggle="tooltip" data-original-title="Save to Wishlist"> <i class="fa fa-shopping-cart"></i></a>
+                            <a href="" class="btn btn-outline-danger"><i class="fa fa-trash"></i></a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div> <!-- card.// --><br><br>
+            <div class="card mb-3">
+                <div class="card-header">
+                    <i class="fa fa-product-hunt"></i> Bestsellers!</div>
+                <div class="card-body">
+                    <div id="myPieChart" width="100%" height="100"></div>
+                </div>
+                <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery/jquery.min.js"></script>
+    <script src="c3/d3.min.js"></script>
+    <script src="c3/c3.min.js"></script>
+    <script src="js/pie.js"></script>
+</div>
+<!--container end.//-->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+        <div class="row">
+            <div class="col" style="margin-left: 480px">
+                <a href="#" class="btn btn-lg" style="color: white"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="btn btn-lg" style="color: white"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="btn btn-lg" style="color: white"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+</footer>
+</body>
+</html>
